@@ -4,21 +4,21 @@
 int num1, num2, num3, maxNum, minNum;
 
     int max(){
-        if (num1 > num2 && num1 > num3)
+        if (num1 >= num2 && num1 >= num3)
             maxNum = num1;
-        if (num2 > num1 && num2 > num3)
+        if (num2 >= num1 && num2 >= num3)
             maxNum = num2;
-        if (num3 > num1 && num3 > num2)
+        if (num3 >= num1 && num3 >= num2)
             maxNum = num3;
             printf("The maximum number is : %d", maxNum);
         }
 
     int min(){
-        if (num1 < num2 && num1 < num3)
+        if (num1 <= num2 && num1 <= num3)
             minNum = num1;
-        if (num2 < num1 && num2 < num3)
+        if (num2 <= num1 && num2 <= num3)
             minNum = num2;
-        if (num3 < num1 && num3 < num2)
+        if (num3 <= num1 && num3 <= num2)
             minNum = num3;
             printf("\nThe minimum number is : %d", minNum);
         }
