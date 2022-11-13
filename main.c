@@ -15,11 +15,10 @@ int main()
             printf("The maximum number is : %d", maxNum);
         }
 
-    printf("Enter three numbers : ");
+    printf("Enter three numbers (ex:4 8 2): ");
     scanf("%d %d %d", &num1,&num2, &num3);
 
     max(num1, num2, num3);
-
 
     return 0;
 }
